@@ -1,0 +1,49 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "node_modules/alertifyjs/build/css/alertify";
+
+@import "node_modules/highlight.js/styles/agate";
+
+@import "node_modules/alertifyjs/build/css/alertify";
+
+
+[v-cloak] { display: none }
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.ajs-message.ajs-visible {
+    color: white;
+}
+
+.u-info,
+.u-info__label,
+.u-info__content {
+    display: inline-block;
+}
+
+.u-info__label {
+
+}
+
+.u-info__content {
+    color: #5bc0de;
+}
+
+.u-info__content:after {
+    content: ";";
+}
+
+
+.u-manage-buttons {
+    display: inline-block;
+    margin-left: 10px;
+}
